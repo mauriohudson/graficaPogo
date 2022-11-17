@@ -412,7 +412,7 @@ font-size: 1.5rem;
 
 /* EMAIL */
 .email {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #ccc;
 }
 /* FIN DE EMAIL */
@@ -420,6 +420,7 @@ font-size: 1.5rem;
 .footer {
     background: #010103;
     text-align: center;
+    border-top: solid #333;
 }
 
 .footer .shar{
@@ -521,6 +522,7 @@ font-size: 1.5rem;
 /* MEDIA QUERIES */
 
 @media (max-width:991px) {
+
     html{
         font-size: 55%;
     }
@@ -536,6 +538,9 @@ font-size: 1.5rem;
 
 
 @media (max-width:768px){
+    .link-btn {
+        display: none;
+    }
 
     section{
         padding: 3rem 1rem;
@@ -587,6 +592,10 @@ font-size: 1.5rem;
 }
 
 @media (max-width:450px){
+    .link-btn {
+        display: none;
+    }
+
     html{
         font-size: 50%;
     }
